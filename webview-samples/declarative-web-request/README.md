@@ -1,13 +1,5 @@
 # Declarative Web Request API
 
-**Note:** The [declarative web request
-API](https://developer.chrome.com/extensions/declarativeWebRequest) is
-available only on the [beta
-channel](https://www.google.com/landing/chrome/beta/) and [dev
-channel](http://www.chromium.org/getting-involved/dev-channel). This sample
-will not work on [stable channel](https://www.google.com/chrome/browser/)
-builds.
-
 This sample shows how to use the declarative web request API with a
 webview. The app implements a simple content blocker for URLs that match a
 [RE2 regular expression](https://code.google.com/p/re2/wiki/Syntax). The
